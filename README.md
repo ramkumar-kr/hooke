@@ -2,7 +2,9 @@
 
 Links your git hooks from your repository. 
 With this gem, you can commit and share git hooks as part of your repository
- 
+
+[![Dependency Status](https://gemnasium.com/badges/github.com/ramkumar-kr/hooke.svg)](https://gemnasium.com/github.com/ramkumar-kr/hooke)
+[![Build Status](https://travis-ci.org/ramkumar-kr/hooke.svg?branch=master)](https://travis-ci.org/ramkumar-kr/hooke) 
 ## Requirements
 
 To ensure that the gem installs and works properly, you need
