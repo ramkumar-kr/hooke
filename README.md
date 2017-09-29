@@ -3,6 +3,7 @@
 Links your git hooks from your repository. 
 With this gem, you can commit and share git hooks as part of your repository
 
+[![Gem Version](https://badge.fury.io/rb/hooke.svg)](https://badge.fury.io/rb/hooke)
 [![Dependency Status](https://gemnasium.com/badges/github.com/ramkumar-kr/hooke.svg)](https://gemnasium.com/github.com/ramkumar-kr/hooke)
 [![Build Status](https://travis-ci.org/ramkumar-kr/hooke.svg?branch=master)](https://travis-ci.org/ramkumar-kr/hooke) 
 ## Requirements
