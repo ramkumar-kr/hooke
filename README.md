@@ -1,14 +1,23 @@
-# Hooker
+# Hooke
 
-Links your git hooks from your repository. Useful for situations where you have a team and want everyone to have some git hooks
+Links your git hooks from your repository. 
+With this gem, you can commit and share git hooks as part of your repository
+ 
+## Requirements
 
+To ensure that the gem installs and works properly, you need
+
+- `bundler` with version >1.15
+- `git` installed on your system
+- `.git` directory in your repository root path
+- `git_hooks` directory in your repository root path
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'hooker'
+gem 'hooke'
 ```
 
 And then execute:
@@ -17,13 +26,18 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install hooker
+    $ gem install hooke
 
 ## Usage
 
-1. Create a git_hooks directory on the root path of your project
-2. Add this gem as a dependency in your Gemfile
-Example
+The hooks are linked using a symbolic link after installing the gem.
+
+
+## Example
+
+This project itself is a good example on using the gem.
+
+A pre-commit hook is added which runs the linter and tests and can be found in the `git_hooks` directory
 
 
 ## Development
@@ -34,7 +48,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hooker.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ramkumar-kr/hooke.
 
 
 ## License
