@@ -1,8 +1,5 @@
 #!/bin/sh
 
 # Run linter before commit
-echo "Running rubocop..."
-bundle exec rubocop
-# Run tests before commit
-echo "Running Tests...."
-bundle exec rake
+echo "Running rubocop and rspec..."
+bundle exec rubocop && bundle exec rake

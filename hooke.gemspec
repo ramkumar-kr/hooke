@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ['ramkumar.kr94@gmail.com']
 
   spec.summary       = 'Copy and share your git hooks'
-  spec.description   = 'Creates a soft link from '
+  spec.description   = 'Creates a soft link from git_hooks \
+  directory to .git/hooks on bundle install'
   spec.homepage      = ''
   spec.license       = 'MIT'
   spec.post_install_message = 'You are now hooked'
