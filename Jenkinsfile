@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('bundle install') {
       steps {
-        sh 'ruby --version'
+        echo 'Done'
       }
     }
   }
